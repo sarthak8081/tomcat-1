@@ -7,7 +7,8 @@ sudo apt install default-jdk
 sudo useradd -m -U -d /opt/tomcat -s /bin/false tomcat
 cd /tmp
 
-wget http://www-us.apache.org/dist/tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32.zip
+wget http://apachemirror.wuchna.com/tomcat/tomcat-8/v8.5.50/bin/apache-tomcat-8.5.50.tar.gz
+
 
 unzip apache-tomcat-*.zip
 sudo mv apache-tomcat-*/ /opt/tomcat/
